@@ -1,44 +1,73 @@
 
+body{
+    background-color: lightgray;
+}
+
+#wrapper{
+    border-style:solid;
+    background-color: slategray;
+}
 
 h1{
     background-color: cadetblue;
-    position: absolute;
-    top:0;
+    position: relative;
+    /* margin:auto; */
+    top:10%;
     height: 40px;
     width: 200px;
     font-size: 20px;
     font-family: 'Abril Fatface', cursive;
-
 }
 
 h2{
-    position: absolute;
+    position: relative;
     top:10%;
 }
 
 .aboutme{
-    position: absolute;
+    position: relative;
     top:20%;
+    left:18%;
     font-family: 'Indie Flower', cursive;
+    float:left;
 }
 
+/* vvv apply border to all three compontents, about, portfolio and contact vvv */
 #about{
-    position: absolute;
-    top:10%;
-    right:30%;
+    position: fixed;
+    margin:auto;
+    bottom:90%;
+    left:70%;
+    /* right:10%; */
+    border-style: solid;
+    text-align: center;
+    width: 50px;
+    padding: 10px;
 }
+
 #portfolio{
-    position: absolute;
-    top:15%;
-    right:30%;
+    position: fixed;
+    margin:auto;
+    bottom:90%;
+    left:80%;
+    border-style: solid;
+    text-align: center;
+    width: 50px;
+    padding: 10px;
 }
 #contact{
-    position: absolute;
-    top:20%;
-    right:30%;
+    position: fixed;
+    margin:auto;
+    bottom:90%;
+    left: 90%;
+    border-style: solid;
+    text-align: center;
+    width: 50px;
+    padding: 10px;
 }
 
 img{
-    position: absolute;
-    top:40%;
+    position: relative;
+    /* top:20%; */
+    /* float:right; */
 }
